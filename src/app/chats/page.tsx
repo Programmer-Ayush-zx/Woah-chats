@@ -86,7 +86,7 @@ const Chat: React.FC = () => {
   };
 
   return (
-    <div className="flex flex-col h-screen bg-neutral-900">
+    <div className="flex flex-col h-screen bg-neutral-900 w-screen">
         <div className="titlebar flex flex-row justify-center items-center">
             <p className="text-3xl font-bold mb-4 m-4">WOAH Chats</p>
             <Image src="/spikes.png" alt="Email Icon" className="h-12 w-12" width={30} height={30} />
