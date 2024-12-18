@@ -105,7 +105,7 @@ const Chat: React.FC = () => {
               <div
                 className={`${
                   message.userName === username
-                    ? "bg-green-500 text-neutral-100 border-green-800 rounded-l-lg"
+                    ? "bg-red-500 text-neutral-100 border-green-800 rounded-l-lg"
                     : "bg-slate-300 text-neutral-900 border-slate-600 rounded-r-lg"
                 } p-2  max-w-xs`}
               >
